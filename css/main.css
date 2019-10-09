@@ -1,7 +1,13 @@
 html, body {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
-  line-height: 1.4;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -22,6 +28,7 @@ nav a {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
+  font-size: 1.125rem;
   text-decoration: none;
 }
 
@@ -36,9 +43,7 @@ main::first-line {
 }
 
 img {
-  max-height: 100%;
-  max-width: 100%;
-  width: inherit;
+  width: 100%;
 }
 
 p {
@@ -51,7 +56,7 @@ p {
 }
 
 blockquote > p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-style: italic;
 }
 
